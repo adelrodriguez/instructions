@@ -1,3 +1,8 @@
 name: instructions
 version: 1.0.0
 description: My global instructions for every agent
+author: Adel Rodríguez
+dependencies:
+  apm:
+    # The instructions name these skills, so installing them brings the skills too.
+    - adelrodriguez/skills
