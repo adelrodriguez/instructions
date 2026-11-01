@@ -4,5 +4,11 @@ description: My global instructions for every agent
 author: Adel Rodríguez
 dependencies:
   apm:
-    # The instructions name these skills, so installing them brings the skills too.
-    - adelrodriguez/skills
+    # The skills these instructions name, and the skills those call.
+    - git: adelrodriguez/skills
+      skills:
+        - codebase-design
+        - issue
+        - testing
+        - unslop
+        - upload
